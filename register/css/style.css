@@ -1,0 +1,15 @@
+.btn1{
+    border:1px solid #ff822f;
+    background-color:#ff822f;
+}
+.btn1:hover{
+    border:1px solid #ff822f;
+    background:#ff822f;
+}
+.btn1:active{
+    border:1px solid #ff822f;
+    background:transparent;
+}
+input[type=checkbox]{
+    accent-color:#ff822f;
+}

@@ -1,0 +1,181 @@
+@font-face{
+    src:url(../fonts/mulish-bold.ttf);
+    src:url(../fonts/mulish-light.ttf);
+    src:url(../fonts/mulish-regular.ttf);
+    src:url(../fonts/mulish-medium.ttf);
+}
+@font-face{
+    src:url(../fonts/wittgenstein-bold.ttf);
+    src:url(../fonts/wittgenstein-medium.ttf);
+    src:url(../fonts/wittgenstein-regular.ttf);
+}
+@font-face{
+    src:url(../fonts/chakrapetch-bold.ttf);
+    src:url(../fonts/chakrapetch-regular.ttf);
+    src:url(../fonts/chakrapetch-medium.ttf);
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar1{
+    background:#ff822f;
+}
+.navbar2{
+    box-shadow:0 3px 3px #722c03;
+}
+.logo a{
+    font-size: 35px;
+    font-family: "Wittgenstein", serif;
+}
+.logo a span{
+    color:#ff822f;
+}
+.btn1{
+    border:1px solid #ff822f;
+}
+.btn1:hover{
+    background-color:#ff822f;
+    color:#fff;
+}
+.btn0{
+    background:#ff822f;
+    color:#fff;
+}
+.btn0:hover{
+    background-color: #ff822f;
+}
+.nav a{
+    text-decoration: none;
+    color:#000;
+}
+svg{
+    width:30px;
+    height:30px;
+    margin:0 20px 0 30px;
+    transition: .33s;
+}
+svg:hover{
+    color:#ff822f;
+}
+.sign{
+    border:1px solid #ff822f;
+    padding:5px 10px;
+    border-radius: 6px;
+    transition:.33s;
+}
+.sign:hover{
+    background:#ff822f;
+}
+.sign a{
+    text-decoration: none;
+    color:#20124d;
+    font-size: 20px;
+    transition:.33s;
+}
+.sign a:hover{
+    color:#fff;
+}
+.slide{
+    display: flex;
+    justify-content: center;
+}
+.slidebar{
+    width:900px;
+    height:600px;
+}
+.person{
+    width:300px;
+}
+.title{
+    display: flex;
+    justify-content: end;
+    /* margin-top:200px; */
+}
+.title .tower{
+    font-size: 200px;
+}
+.title h1{
+    font-family: "Chakra Petch", sans-serif;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-shadow: 0 5px 15px #722c03;
+}
+.title h1 span{
+    font-family: "Wittgenstein", serif;
+    color:#8daaa6;
+    font-size: 100px;
+}
+.accordion h2{
+    color:#20124d;
+}
+.btn1{
+    background-color:#ff822f;
+}
+.tt{
+    color:#20124d;
+}
+del{
+    color:#8daaa6;
+}
+.iconic{
+    border-radius: 10px;
+    background-color:#ff822f;
+}
+.flexible h3{
+    font-family: "Chakra Petch", sans-serif;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-shadow: 0 5px 15px #722c03;
+}
+.flexible h3 span{
+    font-family: "Wittgenstein", serif;
+    color:#8daaa6;
+    font-size: 100px;
+}
+.register h5 a{
+    font-size: 25px;
+    text-decoration: none;
+    color:#20124d;
+}
+.register h5 a:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: #20124d;
+}
+.last{}
+.part1 p{
+    font-size: 20px;
+    color:#8daaa6;
+}
+.part1 span{
+    color:#8daaa6;
+    font-size: 12px;
+}
+.part1 ul li a{
+    text-decoration: none;
+    color:#8daaa6;
+}
+.part1 ul li a:hover{
+    color:#ff822f;
+    text-decoration: underline;
+}
+.part2 p{
+    color:#8daaa6;
+    font-size: 20px;
+}
+.part2 ul li a svg{
+    color:#8daaa6;
+}
+.part2 ul li a svg:hover{
+    color:#ff822f;
+}
